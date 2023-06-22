@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -31,6 +30,8 @@
 				<div class="form-group">
 					<button class="btn btn-primary form-control" name="login">Login</button>
 				</div>
+				<br>
+				<h3>nog geen account?</h3>
 				<a href="registreren.php">registreren</a>
 			</form>
 		</div>

@@ -16,17 +16,17 @@
 			$fetch = $query->fetch();
 			if($row > 0) {
 				$_SESSION['user'] = $fetch['mem_id'];
-				header("location: index.php");
+				header("location: home.php");
 			} else{
 				echo "
 				<script>alert('Onjuist gebruikersnaam of wachtwoord')</script>
-				<script>window.location = 'index.php'</script>
+				<script>window.location = 'home.php'</script>
 				";
 			}
 		}else{
 			echo "
 				<script>alert('Vul het verplichte veld in!')</script>
-				<script>window.location = 'index.php'</script>
+				<script>window.location = 'home.php'</script>
 			";
 		}
 	}
