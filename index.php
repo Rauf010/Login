@@ -24,6 +24,7 @@
 				$sql->execute();
 				$fetch = $sql->fetch();
 			?>
+			<a href = "login.php"></a>
 			<a href = "logout.php">Logout</a>
 		
 	</div>
